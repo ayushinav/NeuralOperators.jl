@@ -8,6 +8,7 @@ using Lux
 using LuxCore: LuxCore, AbstractExplicitLayer
 using LuxLib: batched_matmul
 using NNlib: NNlib, batched_adjoint
+using LoopVectorization
 using Random: Random, AbstractRNG
 using Reexport: @reexport
 
